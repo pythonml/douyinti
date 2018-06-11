@@ -9,7 +9,7 @@ Add douyin effect to text
 
 ### 示例
 
-转换后的代码图片
+加上抖音特效后的*南京西路*
 
 ![](https://raw.githubusercontent.com/pythonml/douyinti/master/out.jpeg)
 
