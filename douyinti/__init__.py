@@ -1,5 +1,5 @@
 import argparse
-from douyinti.converter import add_effect, text_to_img
+from douyinti.converter import text_to_img
 
 def main():
     parser = argparse.ArgumentParser()

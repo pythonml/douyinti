@@ -8,6 +8,9 @@ setup(
     author_email='shenzhongqiang@msn.com',
     url='https://github.com/pythonml/douyinti',
     packages=setuptools.find_packages(),
+    package_data={
+        'douyinti': ['fonts/*.ttf'],
+    },
     install_requires=['Pillow>=5.1.0', 'numpy==1.14.4'],
     classifiers=(
         "Programming Language :: Python :: 3",
