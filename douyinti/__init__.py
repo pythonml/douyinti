@@ -4,7 +4,7 @@ from douyinti.converter import text_to_img
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--text", help="text to add effect", dest="text")
-    parser.add_argument("--out", help="path of output image", dest="out")
+    parser.add_argument("--out", help="path of output image, default to ./out.jpeg", dest="out")
     args = parser.parse_args()
 
     if args.text is None:
