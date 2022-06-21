@@ -11,7 +11,7 @@ setup(
     package_data={
         'douyinti': ['fonts/*.ttf'],
     },
-    install_requires=['Pillow>=5.1.0', 'numpy==1.14.4'],
+    install_requires=['Pillow>=5.1.0', 'numpy==1.22.0'],
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
